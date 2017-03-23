@@ -34,7 +34,13 @@ ToiletPaperBot = (options) => {
       m.nickName = message.member.nickname;
       m.content = message.content;
 
+      //TODO: This is shit, do a better way of validating bots/commands.
+      // Like a command list and the api probs have an "isbot" check
       if (m.authorName != 'Tatsumaki' || m.authorName != 'grabmsgs') {
+        if (m.content === '!memetext') {
+          return;
+        }
+        
         // Save to file
         results.push(m);
         messagesToJSON();
