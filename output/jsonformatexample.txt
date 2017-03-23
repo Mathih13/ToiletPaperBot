@@ -1,0 +1,20 @@
+Keep in mind that nickname might be null if it's not set for the person on the server they are messaging.
+
+
+[
+   {
+      "authorName":"Choke on my Lijiang Tower",
+      "nickName":null,
+      "content":"Do tell"
+   },
+   {
+      "authorName":"Matih",
+      "nickName":"Coffee Flavor",
+      "content":"You can really tell that these people have been focused on designing the multiplayer/combat part of previous games"
+   },
+   {
+      "authorName":"Matih",
+      "nickName":"Coffee Flavor",
+      "content":"Every animation and effect in the combat is pretty amazing. The world is pretty great, the story has me hooked so far"
+   }
+]
